@@ -2,6 +2,7 @@ import './App.css';
 import Counter from './components/Counter';
 import CounterD from './components/counterD';
 import Post from './components/API';
+import Swapi from './components/swapi'
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       <div>
         <Post/>
       </div>
+      <>
+        <Swapi/>
+      </>
     </div>
   );
 }
