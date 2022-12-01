@@ -1,8 +1,10 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; // !
 import Counter from './components/Counter';
 import CounterD from './components/counterD';
 import Post from './components/API';
 import Swapi from './components/swapi'
+import MyCard from './components/MyCard'
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
       <>
         <Swapi/>
       </>
+        <MyCard/>
     </div>
   );
 }
