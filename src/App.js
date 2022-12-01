@@ -14,7 +14,7 @@ function App() {
       <div className="CounterD">
         <CounterD/>
       </div>
-      <div>
+      <div className='Post'>
         <Post/>
       </div>
       <>
