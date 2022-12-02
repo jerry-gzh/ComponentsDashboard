@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css'; // !
 import Counter from './components/Counter';
 import CounterD from './components/counterD';

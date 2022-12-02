@@ -1,0 +1,45 @@
+.App{
+  background-color: grey;
+}
+
+@mixin theme{
+  border-radius: 10px;
+  text-align: center;
+  position:relative;
+  font-family: 'Comfortaa', cursive;
+  width: 40%;
+  left: 30%;
+  margin: 30px;
+  padding: 10px;
+  border-color: black;
+}
+
+.boton{
+  @include theme;
+  background-color: blue;
+  color: aqua;
+  top: 10px;
+  font-size: 3vw;
+}
+
+.Counter{
+  @include theme;
+  background-color: rgb(110, 62, 62);
+}
+
+.CounterD{
+  @include theme;
+  background-color: rgb(78, 110, 62);
+}
+
+.Swapi, .Post{
+  @include theme;
+  background-color: rgb(110, 100, 62);
+  text-align: left;
+  width: 70%;
+  left: 15%;
+}
+
+.Post{
+  background-color: rgb(62, 102, 110);
+}
