@@ -5,6 +5,7 @@ import CounterD from './components/counterD';
 import Post from './components/API';
 import Swapi from './components/swapi'
 import MyCard from './components/MyCard'
+import SwapiBtn from './components/swapiButton'
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
       </div>
       <>
         <Swapi/>
+      </>
+      <>
+        <SwapiBtn/>
       </>
         <MyCard/>
     </div>

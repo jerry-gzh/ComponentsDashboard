@@ -40,6 +40,20 @@
   left: 15%;
 }
 
+#btn {
+  background-color: pink;
+  color: black;
+  border: 3px solid purple;
+  padding: 5px 7.5px;
+  width: 40%;
+  left: 30%;
+  position:relative;
+  text-align: center;
+  font-size: 1.5vw;
+  margin: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 .Post{
   background-color: rgb(62, 102, 110);
 }
