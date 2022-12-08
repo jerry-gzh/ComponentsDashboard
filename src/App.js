@@ -26,7 +26,7 @@ function App() {
         <Swapi/>
       </>
       <>
-        <SwapiBtn/>
+      {/* <SwapiBtn/> */}
       </>
         {/* <MyCard/> */}
       <Router>
@@ -36,11 +36,15 @@ function App() {
               <li>
                 <Link to="/MyCard">My Card</Link>
               </li>
+              <li>
+              <Link to="/SwapiBtn">Swapi Btn</Link>
+              </li>
             </ul>
           </nav>
 
           <Routes>
             <Route path="/MyCard" element={<MyCard/>}/> 
+            <Route path="/SwapiBtn" element={<SwapiBtn/>}/>
           </Routes>
         </div>
       </Router>
